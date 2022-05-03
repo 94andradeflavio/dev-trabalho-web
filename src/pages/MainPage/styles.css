@@ -1,0 +1,57 @@
+.loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 2rem;
+}
+
+#main .nav {
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #d5d5d5;
+    padding: .5rem;
+}
+
+#main .nav .logo {
+    flex: 1;
+    font-size: 1rem;
+    margin: 0;
+}
+
+#main .search {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #f1f1f1;
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+
+#main label {
+    flex-shrink: 0;
+}
+
+#main .clients {
+    margin: 1rem auto;
+    padding: 0 2rem;
+    width: 100%;
+}
+
+#main .clients .title {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+#main .clients table {
+    margin-top: 2rem;
+    border: 2px solid;
+    width: 100%;
+}
+
+#main .clients table td {
+    border: 2px solid;
+    word-break: break-all;
+}
+
